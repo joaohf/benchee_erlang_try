@@ -1,7 +1,18 @@
+{"1.2.0",
 [{<<"benchee">>,
   {git,"https://github.com/bencheeorg/benchee",
        {ref,"07b844e2c61c79a756a94dbdf5fef379c72942f7"}},
   0},
+ {<<"deep_merge">>,{pkg,<<"deep_merge">>,<<"1.0.0">>},0},
  {<<"elixir">>,{iex_dep,<<"elixir">>,<<>>},1},
  {<<"logger">>,{iex_dep,<<"logger">>,<<>>},1},
- {<<"mix">>,{iex_dep,<<"mix">>,<<>>},1}].
+ {<<"mix">>,{iex_dep,<<"mix">>,<<>>},1},
+ {<<"statistex">>,{pkg,<<"statistex">>,<<"1.0.0">>},0}]}.
+[
+{pkg_hash,[
+ {<<"deep_merge">>, <<"B4AA1A0D1ACAC393BDF38B2291AF38CB1D4A52806CF7A4906F718E1FEB5EE961">>},
+ {<<"statistex">>, <<"F3DC93F3C0C6C92E5F291704CF62B99B553253D7969E9A5FA713E5481CD858A5">>}]},
+{pkg_hash_ext,[
+ {<<"deep_merge">>, <<"CE708E5F094B9CD4E8F2BE4F00D2F4250C4095BE93F8CD6D018C753894885430">>},
+ {<<"statistex">>, <<"FF9D8BEE7035028AB4742FF52FC80A2AA35CECE833CF5319009B52F1B5A86C27">>}]}
+].
